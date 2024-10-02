@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/palido1">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@color/blueObs"
+        android:contentDescription="@string/app_logo"
+        android:scaleType="centerCrop" />
+
+
+
+    <!-- Campo de texto para el nombre de usuario -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/nombre"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Campo de texto para la contraseña -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/pswd"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Texto de '¿Olvidaste la contraseña?' -->
+    <Button
+        android:id="@+id/textButton"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/forgot"
+        android:textColor="@color/turq"
+        android:layout_marginEnd="30dp"
+        />
+
+    <!--Boton Iniciar sesion -->
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/log_in"
+        android:backgroundTint="@color/turq"
+        android:textColor="@color/blueObs"
+        />
+
+    <!-- Botón para registrarse -->
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/Sign_in"
+        android:backgroundTint="@color/turq"
+        android:textColor="@color/blueObs"
+        />
+
+</LinearLayout>

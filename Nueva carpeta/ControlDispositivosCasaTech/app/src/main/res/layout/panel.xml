@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_margin="30dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="16dp"
+            android:src="@drawable/mas" />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/air"
+            android:layout_marginHorizontal="16dp"
+            />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/idea"
+            android:layout_marginHorizontal="16dp"
+            />
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/tv"
+            android:layout_marginHorizontal="16dp"
+            />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="176dp"
+        android:layout_height="356dp"
+        android:layout_margin="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/air"
+                    android:layout_margin="20dp"/>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:checked="true"
+                    android:gravity="center" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/aire_acondicionado"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entrada"
+                android:textSize="14sp"
+                android:layout_marginStart="13dp" />
+
+            <View
+                style="@style/Divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_23_c"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/modo_auto"
+                android:textSize="14sp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp">
+
+                <Button
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="70dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="10dp"
+                    android:text="@string/menos"
+                    />
+
+                <Button
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="70dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="48dp"
+                    android:text="@string/signomas" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-382dp"
+        android:layout_marginBottom="396dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/altavoz"
+                    android:layout_margin="20dp"/>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/altavoz"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mi_habitacion"
+                android:textSize="14sp"
+                android:layout_marginStart="13dp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-383dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="396dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/tv"
+                    android:layout_margin="20dp"/>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:checked="true"
+                    android:gravity="center" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/smart_tv"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/living"
+                android:textSize="14sp"
+                android:layout_marginStart="13dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="-383dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="1dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="14dp"
+        android:src="@drawable/idea"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/luz_de_techo"
+            android:textSize="18sp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/habitacion_de_los_ni_os"
+            android:textSize="14sp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="34sp"/>
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:checked="true"
+            android:gravity="end"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Barra de navegación -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="44dp"
+        android:background="#E0E0E0"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <!-- Botón Panel -->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/grey"
+            android:contentDescription="@string/homeA"
+            android:src="@drawable/home2" />
+
+
+        <!-- Botón Análisis -->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/analysisA"
+            android:src="@drawable/analysis" />
+
+        <!-- Botón Habitaciones -->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/habitacionesA"
+            android:src="@drawable/chart2" />
+
+        <!-- Botón Configuración -->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/configA"
+            android:src="@drawable/config"
+            />
+    </LinearLayout>
+
+</LinearLayout>
